@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Css shapes</title>
+	<style type="text/css">
+		body {
+			margin: 0;
+			padding: 0;
+		}
+
+		.title {
+			text-align: center;
+		}
+
+		.flex {
+			margin-top: 30px;
+			display: flex;
+			justify-content: space-between;
+			flex-wrap: wrap;
+		}
+
+		.common {
+			width: 0;
+			height: 0;
+		}
+		.square {
+			width: 100px;
+			height: 100px;
+			background-color: red;
+		}
+		.rectangle {
+			width: 200px;
+			height: 100px;
+			background-color: green;
+		}
+		.circle {
+			width: 100px;
+			height: 100px;
+			background-color: yellow;
+			border-radius: 50%;
+		}
+		.circle-heart {
+			width: 100px;
+			height: 100px;
+			background-color: yellow;
+			border: 50px solid red;
+			border-radius: 50%;
+		}
+		.ellipse {
+			width: 200px;
+			height: 100px;
+			background-color: blue;
+			border-radius: 50%;
+		}
+		.up-triangle {
+			border: 50px solid transparent;
+			border-top: 50px solid red;
+		}
+		.right-triangle {
+			border: 50px solid transparent;
+			border-right: 50px solid green;
+		}
+		.down-triangle {
+			border: 50px solid transparent;
+			border-bottom: 50px solid purple;
+		}
+		.left-triangle {
+			border: 50px solid transparent;
+			border-left: 50px solid orange;
+		}
+		.left-top-triangle {
+			border-top: 50px solid red;
+			border-right: 50px solid transparent;
+			/* border: 50px solid transparent;
+			border-top: 50px solid red;
+			border-left: 50px solid red; */
+		}
+		.right-top-triangle {
+			border-top: 50px solid red;
+			border-left: 50px solid transparent;
+			/* border: 50px solid transparent;
+			border-top: 50px solid red;
+			border-right: 50px solid red; */
+		}
+		.left-bottom-triangle {
+			border-bottom: 50px solid red;
+			border-right: 50px solid transparent;
+			/* border: 50px solid transparent;
+			border-bottom: 50px solid red;
+			border-left: 50px solid red; */
+		}
+		.right-bottom-triangle {
+			border-bottom: 50px solid red;
+			border-left: 50px solid transparent;
+			/* border: 50px solid transparent;
+			border-bottom: 50px solid red;
+			border-right: 50px solid red; */
+		}
+		.diamond {
+			width: 100px;
+			height: 100px;
+			background-color: aqua;
+			transform: skew(-30deg, 0);
+		}
+		.trapezoid {
+			width: 150px;
+			height: 0;
+			border-bottom: 100px solid red;
+			border-left: 100px solid transparent;
+			border-bottom: 100px solid red;
+			border-right: 100px solid transparent;
+			/*border-width: 100px;  
+            border-style: none solid solid;  
+            border-color: transparent transparent red; */
+		}
+	</style>
+</head>
+<body>
+	<h1 class="title">CSS各种形状</h1>
+
+	<div class="flex">
+	    <div class="square"></div>
+	    <div class="rectangle"></div>
+	    <div class="circle"></div>
+	    <div class="circle-heart"></div>
+	    <div class="ellipse"></div>
+	    <div class="common up-triangle"></div>
+	    <div class="common right-triangle"></div>
+	    <div class="common down-triangle"></div>
+	    <div class="common left-triangle"></div>
+	    <div class="common left-top-triangle"></div>
+	    <div class="common right-top-triangle"></div>
+	    <div class="common left-bottom-triangle"></div>
+	    <div class="common right-bottom-triangle"></div>
+	    <div class="diamond"></div>
+	    <div class="trapezoid"></div>
+    </div>
+</body>
+</html> 
